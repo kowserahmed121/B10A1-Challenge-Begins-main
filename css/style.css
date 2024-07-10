@@ -83,3 +83,43 @@ body {
  font-weight: 400;
  line-height: 22px;
 }
+
+/* frst flex container style here */
+.web-flex-container{
+    width: 880px;
+    margin: 100px auto;
+}
+
+.frist-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 110px;
+}
+
+.frist-flex-content h3{
+color: rgba(13, 19, 33, 0.70);
+ font-size: 30px;
+ font-weight: 700;
+ line-height:48px;
+}
+
+.frist-flex-content p{
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 22px;
+ margin: 24px 0px;
+}
+
+.primary-btn{
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600px;
+    background: transparent;
+}
+
+.second-flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 120px 0px;
+    gap: 30px;
+}
