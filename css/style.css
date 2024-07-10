@@ -124,6 +124,7 @@ color: rgba(13, 19, 33, 0.70);
     gap: 30px;
 }
 
+/* video container code here  */
 .video-content{
     width: 880px;
     margin: 0 auto;
@@ -132,4 +133,46 @@ color: rgba(13, 19, 33, 0.70);
 iframe{
     width: 880px; 
     background-position: cover;
+}
+
+/* card container code here */
+.card-container{
+    width: 880px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+   background-color:#FFF6F3;
+   padding: 40px;
+   border-radius: 10px;
+}
+
+.middle-color{
+    background-color: #f2f6fe;
+}
+
+.last-color{
+    background-color: #FFFDF2;
+}
+
+.card h2{
+ font-size: 24px;
+ font-weight: 800;
+ margin: 15px 0px;
+}
+
+.card p{
+ font-size: 14px;;
+ font-weight: 400;
+ margin-bottom: 15px;
+}
+
+.card a{
+    color: #0D1321;
+     font-size: 14px;
+     font-weight: 700;
+     text-decoration: underline;
 }
