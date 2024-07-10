@@ -50,7 +50,7 @@ body {
   margin-bottom: 23px;
 }
 
-.hero-content a button{
+.hero-content a button {
   border-radius: 8px;
   color: white;
   background: rgb(13, 19, 33);
@@ -62,117 +62,176 @@ body {
 
 /* common middle content style  */
 
-.web-development{
-    width: 1080px;
-    margin: 0 auto;
+.web-development {
+  width: 1080px;
+  margin: 0 auto;
 }
 
-.common-middle-content{
-    width: 880px;
-    margin: 120px auto;
+.common-middle-content {
+  width: 880px;
+  margin: 120px auto;
 }
 
-.common-middle-content h2{
- font-size: 32px;
- font-weight: 800;
- margin-bottom: 20px;
+.common-middle-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
-.common-middle-content p{
- font-size: 14px;
- font-weight: 400;
- line-height: 22px;
+.common-middle-content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 /* frst flex container style here */
-.web-flex-container{
-    width: 880px;
-    margin: 100px auto;
+.web-flex-container {
+  width: 880px;
+  margin: 100px auto;
 }
 
-.frist-flex-container{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 110px;
+.frist-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 110px;
 }
 
-.frist-flex-content h3{
-color: rgba(13, 19, 33, 0.70);
- font-size: 30px;
- font-weight: 700;
- line-height:48px;
+.frist-flex-content h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
-.frist-flex-content p{
- font-size: 14px;
- font-weight: 400;
- line-height: 22px;
- margin: 24px 0px;
+.frist-flex-content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 24px 0px;
 }
 
-.primary-btn{
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: 600px;
-    background: transparent;
+.primary-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  background: transparent;
 }
 
-.second-flex-container{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 120px 0px;
-    gap: 30px;
+.second-flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 120px 0px;
+  gap: 30px;
 }
 
 /* video container code here  */
-.video-content{
-    width: 880px;
-    margin: 0 auto;
+.video-content {
+  width: 880px;
+  margin: 0 auto;
 }
 
-iframe{
-    width: 880px; 
-    background-position: cover;
+iframe {
+  width: 880px;
+  background-position: cover;
 }
 
 /* card container code here */
-.card-container{
-    width: 880px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.card-container {
+  width: 880px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
 }
 
-.card{
-   background-color:#FFF6F3;
-   padding: 40px;
-   border-radius: 10px;
+.card {
+  background-color: #fff6f3;
+  padding: 40px;
+  border-radius: 10px;
 }
 
-.middle-color{
-    background-color: #f2f6fe;
+.middle-color {
+  background-color: #f2f6fe;
 }
 
-.last-color{
-    background-color: #FFFDF2;
+.last-color {
+  background-color: #fffdf2;
 }
 
-.card h2{
- font-size: 24px;
- font-weight: 800;
- margin: 15px 0px;
+.card h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 15px 0px;
 }
 
-.card p{
- font-size: 14px;;
- font-weight: 400;
- margin-bottom: 15px;
+.card p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
-.card a{
-    color: #0D1321;
-     font-size: 14px;
-     font-weight: 700;
-     text-decoration: underline;
+.card a {
+  color: #0d1321;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
 }
+
+/* support container css here */
+.support-container {
+  width: 880px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  background-color: rgba(0,0,0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.support-content {
+  width: 720px;
+  color: white;
+}
+
+.support-content h2 {
+  font-size: 32px;
+  font-family: Azeret Mono;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.support-content p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 18px 0px;
+}
+
+.support-content input[type="text"] {
+  width: 300px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.support-content input[type="submit"] {
+  width: 100px;
+  padding: 12px 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
