@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* universal selector code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html body code here */
+body {
+  font-family: "Azeret Mono", monospace;
+  color: rgb(13, 19, 33);
+}
+
+/* common style code here  */
+.text-align {
+  text-align: center;
+}
+
+/* hero container css code start here  */
+.hero-container {
+  height: 652px;
+  min-width: 634px;
+  background-image: url(../assets/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container .hero-content {
+  width: 730px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  margin: 18px 0px;
+}
+
+.hero-content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 23px;
+}
+
+.hero-content a button{
+  border-radius: 8px;
+  color: white;
+  background: rgb(13, 19, 33);
+  padding: 18px 20px 18px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* hero container css code end here  */
+
+/* common middle content style  */
+
+.web-development{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.common-middle-content{
+    width: 880px;
+    margin: 100px auto;
+}
+
+.common-middle-content h2{
+ font-size: 32px;
+ font-weight: 800;
+ margin-bottom: 20px;
+}
+
+.common-middle-content p{
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 22px;
+}
